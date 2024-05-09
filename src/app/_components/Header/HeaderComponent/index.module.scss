@@ -1,0 +1,29 @@
+.header {
+  padding: 36px 0;
+
+  nav {
+    span {
+      color: var(--color-dark-500);
+    }
+
+    button span {
+      color: var(--color-base-0);
+    }
+  }
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: calc(var(--base) / 2) var(--base)
+}
+
+.logo {
+  width: 170px;
+}
+
+.hide {
+  display: none;
+}
